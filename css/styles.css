@@ -1,0 +1,200 @@
+:root {
+  --accent-color: #2196f3;
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-text-color-dark: #212121;
+  --secondary-text-color-dark: #757575;
+  --secondary-text-color-light: #ffffff;
+}
+.logo,
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+  color: var(--secondary-text-color-dark);
+}
+
+/* =====HEADER===== */
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.part-web {
+  color: var(--accent-color);
+}
+.part-studio {
+  color: var(--secondary-text-color-light);
+}
+.list-nav .link.current {
+  color: var(--accent-color);
+}
+.list-link {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color-dark);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.email,
+.phone-number {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-dark);
+}
+/* ====/HEADER======================================== */
+
+/* ====MAIN==== */
+.hero {
+  background: #2f303a;
+  width: 1600px;
+  height: 600px;
+}
+.hero-title {
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color-light);
+}
+.modal-button {
+  cursor: pointer;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color-light);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-link:hover,
+.button-link:focus {
+  color: var(--secondary-text-color-light);
+}
+.button-link {
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-dark);
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.list-benefits {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color-dark);
+}
+.text-benefits {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-dark);
+}
+.list-work {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-dark);
+}
+.team {
+  background: #f5f4fa;
+}
+.team-person {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-dark);
+}
+.person-block {
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1632px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.person {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color-dark);
+}
+.profession {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-dark);
+}
+.image {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color-dark);
+}
+.open-cards {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-dark);
+}
+/* ====/MAIN=============================================== */
+/* ====FOOTER==== */
+.footer-studio,
+.footer-portfolio {
+  background: #2f303a;
+}
+.contacts-foter {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-light);
+}
+/* ====/FOOTER============================================= */
