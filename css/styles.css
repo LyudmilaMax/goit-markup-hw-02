@@ -99,13 +99,12 @@ body {
   color: var(--secondary-text-color-light);
   background: var(--accent-color);
 }
-.button-link:hover {
-  color: var(--secondary-text-color-light);
-  background: var(--accent-color);
-}
+.button-link:hover,
 .button-link:focus {
-  color: var(--accent-color);
+  color: var(--secondary-text-color-light);
+  background-color: var(--accent-color);
 }
+ 
 .button-link {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
