@@ -99,6 +99,7 @@ body {
   color: var(--secondary-text-color-light);
   background: var(--accent-color);
 }
+.button-link:active,
 .button-link:hover,
 .button-link:focus {
   color: var(--secondary-text-color-light);
@@ -107,7 +108,7 @@ body {
  
 .button-link {
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
